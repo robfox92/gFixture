@@ -4,3 +4,6 @@
 [submodule "include/graph"]
 	path = include/graph
 	url = https://github.com/boostorg/graph.git
+[submodule "include/docopt.cpp"]
+	path = include/docopt.cpp
+	url = https://github.com/docopt/docopt.cpp.git
