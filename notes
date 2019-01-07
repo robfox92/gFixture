@@ -1,2 +1,4 @@
 May need to implement maximum weighted matching
     Python implementation: https://networkx.github.io/documentation/networkx-1.9/_modules/networkx/algorithms/matching.html#max_weight_matching
+    Paper: Efficient Algorithms for Finding Maximum Matching in Graphs”, Zvi Galil, ACM Computing Surveys, 1986.
+    
