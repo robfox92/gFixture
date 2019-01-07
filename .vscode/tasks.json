@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_debug",
+            "type": "shell",
+            "linux": {
+                "command": "g++ src/main.cpp -o target/debug/gFixture -DDEBUG"
+            },
+            "windows": {
+                "command": "g++ src/main.cpp -o target/debug/gFixture.exe -DDEBUG"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build_release",
+            "type": "shell",
+            "linux": {
+                "command": "g++ src/main.cpp -o target/release/gFixture -DRELEASE"
+            },
+            "windows": {
+                "command": "g++ src/main.cpp -o target/release/gFixture.exe -DRELEASE"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
