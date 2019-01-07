@@ -7,10 +7,10 @@
             "label": "build_debug",
             "type": "shell",
             "linux": {
-                "command": "g++ src/main.cpp -o target/debug/gFixture -DDEBUG"
+                "command": "g++ src/main.cpp -o target/debug/gFixture -DDEBUG -I include/docopt.cpp"
             },
             "windows": {
-                "command": "g++ src/main.cpp -o target/debug/gFixture.exe -DDEBUG"
+                "command": "g++ src/main.cpp -o target/debug/gFixture.exe -DDEBUG -I include/docopt.cpp"
             },
             "group": {
                 "kind": "build",
@@ -22,10 +22,10 @@
             "label": "build_release",
             "type": "shell",
             "linux": {
-                "command": "g++ src/main.cpp -o target/release/gFixture -DRELEASE"
+                "command": "g++ src/main.cpp -o target/release/gFixture -DRELEASE -I include/docopt.cpp"
             },
             "windows": {
-                "command": "g++ src/main.cpp -o target/release/gFixture.exe -DRELEASE"
+                "command": "g++ src/main.cpp -o target/release/gFixture.exe -DRELEASE -I include/docopt.cpp"
             },
             "group": {
                 "kind": "build",
