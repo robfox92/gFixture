@@ -12,9 +12,9 @@ R"(
         gFixture leagueName <name> sheet <url>
 
     Options:
-        -h  --help                      Show this screen
-        --rematchCount=<rematchCount>   Allowed rematch count [default: 0]
-        --round=<roundNumber>           Round Number to apply to the output file
+        -h  --help                      Show this screen.
+        --rematchCount=<rematchCount>   Allowed rematch count [default: 0].
+        --round=<roundNumber>           Round Number to apply to the output file.
 )";
 
 
